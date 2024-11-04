@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Abhiehsk S
+title: Home
 ---
 
 # Welcome to My Portfolio
