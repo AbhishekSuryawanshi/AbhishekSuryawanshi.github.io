@@ -103,7 +103,7 @@ nav ul li a {
     left: 10%;
     top: 50%; 
     transform: translateY(-50%); */
-    margin-top: 2em; /* Adjust this value to increase spacing */
+    margin-top: 5em; /* Adjust this value to increase spacing */
     display: flex;
     flex-direction: column;
     gap: 20px;
