@@ -142,6 +142,10 @@ section {
     background-color: #fafafa;
 }
 
+.about-section p {
+    margin-bottom: 1.5em; /* Adjust as needed for more space */
+}
+
 /* Skills Section */
 .skills-section ul {
     list-style-type: none;
