@@ -1,0 +1,76 @@
+/* Reset and Basic Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: #f7f7ff;
+    color: #333;
+}
+
+/* Header Styling */
+header {
+    padding: 20px;
+    background: #fff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+/* Intro Section */
+.intro {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 80px 10%;
+    text-align: center;
+}
+
+.intro-text {
+    max-width: 500px;
+}
+
+.intro h1 {
+    font-size: 2.5em;
+    color: #333;
+}
+
+.intro p {
+    font-size: 1.2em;
+    color: #666;
+    margin: 10px 0;
+}
+
+.contact-button {
+    padding: 10px 20px;
+    background: #6c63ff;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+/* Image Styling */
+.intro-image img {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
