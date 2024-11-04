@@ -115,19 +115,4 @@ nav ul li a {
     text-decoration: none;
 }
 
-.scroll-down {
-    text-align: center;
-    margin-top: 2em;
-    font-size: 1em;
-    color: #6c63ff;
-    animation: bounce 2s infinite;
-}
 
-@keyframes bounce {
-    0%, 100% {
-        transform: translateY(0);
-    }
-    50% {
-        transform: translateY(10px);
-    }
-}
