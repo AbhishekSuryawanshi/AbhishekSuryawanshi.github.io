@@ -7,5 +7,5 @@ description: Portfolio
 header_pages:
   - index.md
   - about.md
-  - projects.md
+  - project.md
   - contact.md
