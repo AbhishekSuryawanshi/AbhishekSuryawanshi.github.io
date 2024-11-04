@@ -37,33 +37,49 @@ nav ul li a {
 /* Intro Section */
 .intro {
     display: flex;
-    justify-content: space-between;
     align-items: center;
-    padding: 80px 10%;
-    text-align: center;
+    justify-content: space-between;
+    padding: 60px 10%;
+    background-color: #f7f7ff; /* Light background */
 }
 
 .intro-text {
-    max-width: 500px;
+    max-width: 50%;
 }
 
-.intro h1 {
+.intro-image {
+    max-width: 40%;
+    position: relative;
+    background-color: #6c63ff; /* Purple background */
+    border-radius: 50%;
+    padding: 20px; /* Space around the image */
+}
+
+.intro-image img {
+    width: 100%;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.intro-text h1 {
     font-size: 2.5em;
     color: #333;
+    margin-bottom: 0.5em;
 }
 
-.intro p {
+.intro-text p {
     font-size: 1.2em;
     color: #666;
-    margin: 10px 0;
 }
 
 .contact-button {
+    display: inline-block;
     padding: 10px 20px;
-    background: #6c63ff;
+    background: #6c63ff; /* Button color */
     color: #fff;
     text-decoration: none;
     border-radius: 5px;
+    margin-top: 1em;
     font-weight: bold;
 }
 
@@ -81,4 +97,37 @@ nav ul li a {
     object-fit: fill; /* This keeps the aspect ratio */
     border-radius: 50%; /* Makes it a circle */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.social-icons {
+    position: absolute;
+    left: 10%;
+    top: 50%;
+    transform: translateY(-50%);
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.social-icons a {
+    font-size: 1.5em;
+    color: #6c63ff;
+    text-decoration: none;
+}
+
+.scroll-down {
+    text-align: center;
+    margin-top: 2em;
+    font-size: 1em;
+    color: #6c63ff;
+    animation: bounce 2s infinite;
+}
+
+@keyframes bounce {
+    0%, 100% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(10px);
+    }
 }
