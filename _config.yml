@@ -4,8 +4,5 @@ title: Abhishek Suryawanshi - Senior iOS Developer
 description: Portfolio
 
 # Optional: Customize navigation links
-header_pages:
-  - index.md
-  - about.md
-  - project.md
-  - contact.md
+header_pages: about.md
+
