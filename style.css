@@ -74,3 +74,11 @@ nav ul li a {
     border-radius: 50%;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
+
+.profile-image {
+    width: 300px; /* Adjust as needed */
+    height: 300px; /* Adjust as needed */
+    object-fit: cover; /* This keeps the aspect ratio */
+    border-radius: 50%; /* Makes it a circle */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
