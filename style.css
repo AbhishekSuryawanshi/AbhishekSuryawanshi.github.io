@@ -130,3 +130,51 @@ nav ul li a {
         transform: translateY(10px);
     }
 }
+
+/* Section Styles */
+section {
+    padding: 60px 10%;
+    background-color: #f0f0f5;
+}
+
+/* About Section */
+.about-section {
+    background-color: #fafafa;
+}
+
+/* Skills Section */
+.skills-section ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.skills-section li {
+    margin: 10px 0;
+}
+
+/* Projects Section */
+.projects-section .project {
+    margin-bottom: 20px;
+}
+
+.projects-section a {
+    color: #6c63ff;
+    text-decoration: underline;
+}
+
+/* Portfolio Section */
+.portfolio-section a {
+    color: #6c63ff;
+    margin-right: 10px;
+    text-decoration: underline;
+}
+
+/* Contact Section */
+.contact-section ul {
+    list-style: none;
+    padding: 0;
+}
+
+.contact-section ul li {
+    margin: 10px 0;
+}
