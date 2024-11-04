@@ -182,3 +182,26 @@ section {
 .contact-section ul li {
     margin: 10px 0;
 }
+
+/* Smooth scrolling */
+html {
+    scroll-behavior: smooth;
+}
+
+/* Hide all sections initially except the Home section */
+section {
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+}
+
+.intro {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+/* Reveal sections when they come into view */
+section.visible {
+    opacity: 1;
+    transform: translateY(0);
+}
