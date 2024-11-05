@@ -1,8 +1,62 @@
 /* Reset and Basic Styles */
+/* General Reset */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    /* Stack the hero section elements vertically on small screens */
+    .intro {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        padding: 20px;
+    }
+
+    .intro h1 {
+        font-size: 2em;
+    }
+
+    .intro .subtitle {
+        font-size: 1em;
+    }
+
+    .intro-image {
+        margin-top: 20px;
+    }
+
+    /* Adjust contact section alignment */
+    .contact-section {
+        padding: 20px;
+    }
+
+    .contact-container {
+        flex-direction: column;
+        padding: 20px;
+    }
+
+    .contact-text, .contact-details {
+        text-align: center;
+        margin-bottom: 15px;
+    }
+
+    /* Adjust padding and font size in other sections */
+    .about-section, .skills-section, .portfolio-section, .contact-section {
+        padding: 20px 5%;
+    }
+
+    /* Font size adjustments for smaller screens */
+    h2, h3 {
+        font-size: 1.5em;
+    }
+
+    p {
+        font-size: 0.95em;
+    }
 }
 
 body {
