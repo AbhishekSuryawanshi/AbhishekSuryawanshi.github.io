@@ -133,6 +133,7 @@ nav ul li a:hover {
     z-index: 1;
 }
 
+/*
 #home::before {
     content: "";
     position: absolute;
@@ -141,8 +142,8 @@ nav ul li a:hover {
     right: 0;
     bottom: 0;
     background: rgba(0, 0, 0, 0.4); /* Semi-transparent overlay for darker effect */
-    z-index: 0;
-}
+   /* z-index: 0;
+} */
 
 /* Image Styling */
 .intro-image img {
