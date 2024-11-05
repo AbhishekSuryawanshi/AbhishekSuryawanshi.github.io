@@ -302,61 +302,6 @@ section {
 }
 
 /* Projects Section */
-.projects-section {
-    padding: 60px 10%;
-    background-color: #f7f7ff;
-    text-align: center;
-}
-
-.projects-section h2 {
-    font-size: 2em;
-    color: #333;
-    margin-bottom: 1em;
-}
-
-.project-category {
-    margin-top: 30px;
-}
-
-.project-category h3 {
-    font-size: 1.5em;
-    color: #6c63ff;
-    text-align: left;
-    margin-bottom: 10px;
-}
-
-.project-card {
-    background-color: #fff;
-    border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    padding: 20px;
-    margin-bottom: 20px;
-    text-align: left;
-}
-
-.project-card h4 {
-    font-size: 1.2em;
-    color: #333;
-    margin-bottom: 0.5em;
-}
-
-.project-card p {
-    font-size: 1em;
-    color: #666;
-    margin-bottom: 0.8em;
-}
-
-.project-card a {
-    color: #6c63ff;
-    font-weight: bold;
-    text-decoration: none;
-}
-
-.project-card a:hover {
-    text-decoration: underline;
-}
-
-/* Portfolio Section */
 .portfolio-section {
     padding: 60px 10%;
     background-color: #f7f7ff;
@@ -364,7 +309,7 @@ section {
 }
 
 .portfolio-section h2 {
-    font-size: 2em;
+    font-size: 2.5em;
     color: #333;
     margin-bottom: 1em;
 }
@@ -372,25 +317,54 @@ section {
 .portfolio-section p {
     font-size: 1.1em;
     color: #666;
-    margin-bottom: 2em;
+    max-width: 800px;
+    margin: 0 auto 2em;
+    line-height: 1.6;
 }
 
 .portfolio-category {
-    margin-top: 30px;
+    margin-top: 40px;
     text-align: left;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .portfolio-category h3 {
-    font-size: 1.5em;
+    font-size: 1.8em;
     color: #6c63ff;
-    margin-bottom: 15px;
     display: flex;
     align-items: center;
-    gap: 8px;
+    gap: 10px;
+    margin-bottom: 15px;
+}
+
+.portfolio-category p {
+    font-size: 1em;
+    color: #444;
+    margin-bottom: 20px;
+    line-height: 1.6;
+}
+
+.values-list {
+    list-style-type: disc;
+    padding-left: 20px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.values-list li {
+    margin-bottom: 15px;
+    color: #333;
+    line-height: 1.5;
+}
+
+.values-list strong {
+    color: #6c63ff;
 }
 
 .portfolio-item {
-    margin-bottom: 20px;
+    margin-bottom: 25px;
     padding: 15px;
     background-color: #fff;
     border-radius: 8px;
@@ -412,6 +386,7 @@ section {
     font-size: 1em;
     color: #666;
     margin-bottom: 0.8em;
+    line-height: 1.5;
 }
 
 .portfolio-item a {
@@ -426,22 +401,7 @@ section {
 
 .portfolio-category i {
     color: #6c63ff;
-    font-size: 1.2em;
-}
-
-.values-list {
-    list-style-type: disc;
-    padding-left: 20px;
-    margin-top: 10px;
-}
-
-.values-list li {
-    margin-bottom: 10px;
-    color: #333;
-}
-
-.values-list strong {
-    color: #6c63ff;
+    font-size: 1.4em;
 }
 
 /* Contact Section */
