@@ -124,27 +124,6 @@ nav ul li a:hover {
     background-size: cover;
 }
 
-/* Overlay Text Styling */
-.intro-text {
-    z-index: 1;
-}
-
-.intro-image {
-    z-index: 1;
-}
-
-/*
-#home::before {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background: rgba(0, 0, 0, 0.4); /* Semi-transparent overlay for darker effect */
-   /* z-index: 0;
-} */
-
 /* Image Styling */
 .intro-image img {
     width: 300px;
