@@ -292,11 +292,13 @@ section {
 .skill-item h3 {
     font-size: 1.2em;
     color: #333;
+    margin-bottom: 10px;
 }
 
 .skill-item p {
     font-size: 0.9em;
     color: #666;
+    margin-top: 10px;
 }
 
 /* Projects Section */
