@@ -386,11 +386,11 @@ section {
 }
 
 .portfolio-category h3 {
-    font-size: 1.8em;
+    font-size: 1.4em;
     color: #6c63ff;
     display: flex;
     align-items: center;
-    gap: 10px;
+    gap: 6px;
     margin-bottom: 15px;
 }
 
@@ -456,7 +456,20 @@ section {
 
 .portfolio-category i {
     color: #6c63ff;
-    font-size: 1.4em;
+    font-size: 1em;
+}
+
+.portfolio-category + .portfolio-category {
+    border-top: 1px solid #e0e0e0;
+    padding-top: 30px;
+    margin-top: 40px;
+}
+
+.portfolio-item {
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
 /* Contact Section */
