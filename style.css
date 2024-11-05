@@ -124,11 +124,8 @@ nav ul li a:hover {
     padding: 60px 10%;
 }
 
-.intro-text, .about-section, .skills-section, .portfolio-section, .contact-section {
-    padding: 5vw; /* Ensure consistent padding across sections */
-    width: 90%; /* Relative width to prevent overflow */
-    max-width: 1200px; /* Set a max width for large screens */
-    margin: auto;
+.intro-text {
+    max-width: 50%;
 }
 
 .intro-text p:last-of-type {
