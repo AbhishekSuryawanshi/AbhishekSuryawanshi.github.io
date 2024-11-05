@@ -467,32 +467,41 @@ section {
 
 /* Contact Section */
 .contact-section {
+    display: flex;
+    justify-content: center;
     padding: 60px 10%;
-    background-color: #f7f7ff;
-    text-align: center;
-    background: linear-gradient(135deg, #f7f7ff, #e0e7ff);
+    background-color: #f0f4ff;
 }
 
-.contact-section h2 {
+.contact-card {
+    background-color: #ffffff;
+    padding: 30px 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+    max-width: 500px;
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.contact-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+}
+
+.contact-card h2 {
     font-size: 2em;
     color: #333;
-    margin-bottom: 0.2em;
+    margin-bottom: 0.5em;
 }
 
-.contact-section p:nth-of-type(1) { /* Styling for name */
-    font-size: 1.3em;
+.contact-card .name {
+    font-size: 1.4em;
     color: #6c63ff;
     font-weight: bold;
     margin-bottom: 1em;
 }
 
-.contact-section p:nth-of-type(2) { /* Styling for description text */
-    font-size: 1.1em;
-    color: #666;
-    margin-bottom: 1.5em;
-}
-
-.contact-section p {
+.contact-card p {
     font-size: 1.1em;
     color: #666;
     margin-bottom: 1.5em;
@@ -501,13 +510,7 @@ section {
 .contact-info {
     display: flex;
     flex-direction: column;
-    align-items: center;
-    max-width: 500px;
-    margin: 0 auto;
-    background-color: #fff;
-    padding: 20px;
-    border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    gap: 15px;
 }
 
 .contact-item {
@@ -515,13 +518,12 @@ section {
     align-items: center;
     font-size: 1.1em;
     color: #333;
-    margin-bottom: 15px;
+    gap: 10px;
 }
 
 .contact-item i {
     color: #6c63ff;
-    font-size: 1.5em;
-    margin-right: 10px;
+    font-size: 1.4em;
 }
 
 .contact-item span {
@@ -539,11 +541,6 @@ section {
 .contact-item a:hover {
     color: #333;
     text-decoration: underline;
-}
-
-.contact-info:hover {
-    transform: scale(1.02);
-    transition: transform 0.3s ease;
 }
 
 /* Smooth scrolling */
