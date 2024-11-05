@@ -169,34 +169,14 @@ section {
 }
 
 /* About Section */
+/* About Section Styling */
 .about-section {
     padding: 60px 10%;
     background-color: #f9f9f9;
     color: #333;
-    line-height: 1.8;
+    line-height: 1.6;
 }
 
-/* General paragraph styling to prevent overlap */
-.about-section p {
-    line-height: 1.8; /* Adjust for more spacing between lines */
-    word-spacing: 0.1em; /* Adjust for better spacing between words */
-    margin-bottom: 1em;
-}
-
-.about-section p strong {
-    margin: 0 3px; /* Add space on both sides to prevent overlap */
-    font-weight: bold;
-    display: inline;
-}
-
-/* Technology name styling */
-.tech {
-    margin: 0 2px;
-    font-weight: bold;
-    display: inline;
-}
-
-/*
 .about-section h2 {
     font-size: 2em;
     margin-bottom: 0.5em;
@@ -232,7 +212,7 @@ section {
 
 .about-section strong {
     color: #333;
-} */
+}
 
 /* Quote Styling */
 .quote {
