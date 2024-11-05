@@ -113,6 +113,7 @@ nav ul li a:hover {
     border-radius: 5px;
     margin-top: 1em;
     font-weight: bold;
+    margin-top: 20px; /* Adjust this value for more or less space */
 }
 
 /* Home Section Styling */
