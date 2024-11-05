@@ -76,6 +76,10 @@ nav ul li a:hover {
     max-width: 50%;
 }
 
+.intro-text p:last-of-type {
+    margin-bottom: 20px; /* Adjust as needed */
+}
+
 .intro-image {
     max-width: 40%;
     position: relative;
