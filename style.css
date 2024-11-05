@@ -66,9 +66,9 @@ nav ul li a:hover {
 /* Intro Section */
 .intro {
     display: flex;
-    align-items: center;
+   /* align-items: center;
     justify-content: space-between;
-    padding: 60px 10%;
+    padding: 60px 10%; */
     background-color: #f7f7ff; /* Light background */
 }
 
@@ -174,19 +174,16 @@ section {
     background-color: #f9f9f9;
     color: #333;
     line-height: 1.6;
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
 }
 
 /* General paragraph styling to prevent overlap */
 .about-section p {
-    line-height: 1.6; /* Adjust for more spacing between lines */
-    word-spacing: 0.1em; /* Adjust for better spacing between words */
+    line-height: 1.8; /* Adjust for more spacing between lines */
+    word-spacing: 0.05em; /* Adjust for better spacing between words */
 }
 
 .about-section p strong {
-    margin: 0 2px; /* Add space on both sides to prevent overlap */
+    margin: 0 1px; /* Add space on both sides to prevent overlap */
     font-weight: bold;
 }
 
