@@ -359,43 +359,89 @@ section {
 /* Portfolio Section */
 .portfolio-section {
     padding: 60px 10%;
-    background-color: #f9f9f9;
+    background-color: #f7f7ff;
+    text-align: center;
 }
 
 .portfolio-section h2 {
     font-size: 2em;
     color: #333;
-    margin-bottom: 0.5em;
+    margin-bottom: 1em;
 }
 
 .portfolio-section p {
     font-size: 1.1em;
-    margin-bottom: 1em;
     color: #666;
+    margin-bottom: 2em;
 }
 
-.medium-posts h3 {
+.portfolio-category {
+    margin-top: 30px;
+    text-align: left;
+}
+
+.portfolio-category h3 {
     font-size: 1.5em;
     color: #6c63ff;
-    margin-top: 1em;
+    margin-bottom: 15px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
 }
 
-.medium-posts ul {
-    list-style-type: disc;
-    padding-left: 20px;
+.portfolio-item {
+    margin-bottom: 20px;
+    padding: 15px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
 }
 
-.medium-posts li {
-    margin-bottom: 0.5em;
+.portfolio-item:hover {
+    transform: translateY(-5px);
 }
 
-.medium-posts a {
+.portfolio-item h4 {
+    font-size: 1.2em;
+    color: #333;
+    margin-bottom: 0.3em;
+}
+
+.portfolio-item p {
+    font-size: 1em;
+    color: #666;
+    margin-bottom: 0.8em;
+}
+
+.portfolio-item a {
     color: #6c63ff;
+    font-weight: bold;
     text-decoration: none;
 }
 
-.medium-posts a:hover {
+.portfolio-item a:hover {
     text-decoration: underline;
+}
+
+.portfolio-category i {
+    color: #6c63ff;
+    font-size: 1.2em;
+}
+
+.values-list {
+    list-style-type: disc;
+    padding-left: 20px;
+    margin-top: 10px;
+}
+
+.values-list li {
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.values-list strong {
+    color: #6c63ff;
 }
 
 /* Contact Section */
