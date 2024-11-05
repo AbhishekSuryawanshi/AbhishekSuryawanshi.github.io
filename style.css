@@ -265,33 +265,38 @@ section {
     margin-bottom: 1em;
 }
 
-.skill-bar {
-    margin-bottom: 15px;
+.skills-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
 }
 
-.skill-name {
-    font-weight: bold;
-    margin-right: 10px;
+.skill-item {
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.skill-item:hover {
+    transform: translateY(-5px);
+}
+
+.skill-item i {
+    font-size: 2em;
+    color: #6c63ff;
+    margin-bottom: 10px;
+}
+
+.skill-item h3 {
+    font-size: 1.2em;
     color: #333;
 }
 
-.progress-bar {
-    background-color: #e0e0e0;
-    border-radius: 5px;
-    overflow: hidden;
-    height: 20px;
-    display: inline-block;
-    width: 60%;
-    vertical-align: middle;
-}
-
-.progress {
-    background-color: #6c63ff;
-    height: 100%;
-    color: #fff;
-    text-align: center;
-    line-height: 20px;
-    white-space: nowrap;
+.skill-item p {
+    font-size: 0.9em;
+    color: #666;
 }
 
 /* Projects Section */
