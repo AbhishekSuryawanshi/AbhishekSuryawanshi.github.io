@@ -168,7 +168,6 @@ section {
     background-color: #f0f0f5;
 }
 
-/* About Section */
 /* About Section Styling */
 .about-section {
     padding: 60px 10%;
@@ -253,14 +252,69 @@ section {
     margin-bottom: 0.5em;
 }
 
-/* Skills Section */
-.skills-section ul {
-    list-style-type: none;
-    padding: 0;
+/* Skills Section Styling */
+.skills-section {
+    padding: 60px 10%;
+    background-color: #f9f9f9;
+    text-align: center;
 }
 
-.skills-section li {
-    margin: 10px 0;
+.skills-section h2 {
+    font-size: 2em;
+    color: #333;
+    margin-bottom: 0.5em;
+}
+
+.skills-section p {
+    font-size: 1.1em;
+    color: #666;
+    margin-bottom: 1.5em;
+}
+
+.skills-categories {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.skills-category {
+    width: 300px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    padding: 20px;
+    text-align: center;
+}
+
+.skills-category h3 {
+    font-size: 1.2em;
+    color: #6c63ff;
+    margin-bottom: 1em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.skills-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+}
+
+.skill-badge {
+    background-color: #6c63ff;
+    color: #fff;
+    padding: 8px 15px;
+    border-radius: 15px;
+    font-size: 0.9em;
+    transition: background-color 0.3s;
+}
+
+.skill-badge:hover {
+    background-color: #4b3cb0;
 }
 
 /* Projects Section */
