@@ -18,3 +18,10 @@ I am passionate about building intuitive user experiences, writing clean and mai
 - **Real-Time Communication**: WebRTC, VoIP, CallKit, PushKit, WebSocket
 - **Tools**: Xcode, Git, CI/CD, Agile, Jenkins, Confluence
 - **Frameworks**: UIKit, Core Data, CloudKit, GameCenter, AdMob, In-App Purchase, Core Animation, Map Kit, Core Location, Combine
+
+## Areas of Expertise
+
+• Real-time audio/video communication using WebRTC  
+• VoIP calling systems using CallKit and PushKit  
+• Scalable iOS architecture and performance optimization  
+• Publishing and maintaining production apps on the App Store
