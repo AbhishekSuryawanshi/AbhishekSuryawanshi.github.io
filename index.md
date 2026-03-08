@@ -6,12 +6,24 @@ title: Home
 # Abhishek Suryawanshi - Senior iOS Developer
 
 ## About Me
-With over 6 years of experience in iOS development, I specialize in building high-quality mobile applications with Swift, SwiftUI, Objective-C, and Auto Layout.
+Senior iOS Developer with **7+ years of experience** building scalable and high-performance mobile applications.  
+I specialize in **Swift, SwiftUI, Objective-C**, and advanced real-time communication systems including **WebRTC-based audio and video calling**.
+
+I have strong experience building production-ready applications with **Clean Architecture**, modern iOS frameworks, and robust networking layers. My work often involves solving complex problems around **real-time communication, performance optimization, and scalable mobile architectures**.
+
+I enjoy building reliable apps that deliver seamless user experiences and solving challenging technical problems in mobile engineering.
 
 ## Skills
 - **Programming Languages**: Swift, SwiftUI, Objective-C
 - **Tools**: Xcode, Git, CI/CD, Agile
 - **Frameworks**: UIKit, Core Data, CloudKit
+
+### Real-Time Communication
+- WebRTC
+- VoIP
+- CallKit
+- PushKit
+- WebSocket
 
 ## Projects
 ### Boxing Warrior
